@@ -1,0 +1,26 @@
+@charset "UTF-8"
+
+
+body {
+    font-family: 'Abel';
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Abel';
+}
+
+h1 { 
+    color: rgb(118, 75, 75);
+    font-family: 'Abel';
+}
+
+h1#principal {
+    text-align: center;
+    font-family: 'Cocogoose';
+}   
+
+h2 {
+    color: rgba(204, 89, 89, 0.926);
+    font-family: 'Abel';
+}

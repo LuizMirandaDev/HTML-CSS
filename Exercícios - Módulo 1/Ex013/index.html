@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5.</title>
+</head>
+
+<body>
+
+    <h1>Inserindo vídeos hospedados localmente.</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    
+    <video src="Vídeos/Gravação de Tela 2024-09-02 194658.mp4" width="500" controls ></video> 
+    <h2>Essa forma de colocar os vídeos impede que outros navegadores incompatíveis vejam esse vídeo.</h2>
+    
+    <h1>Forma correta.</h1>
+
+    <video width="600" poster="Imagens/modelo mao tattoo.jpg" controls>
+        <source src="Vídeos/Gravação de Tela 2024-09-02 194658.mp4" type="video/mp4">
+        <p>Os outros formatos eu coloco aqui direto, pra todos serem capazes de ver o vídeo.</p>
+    
+    </video>
+
+    <h1>Ecconomizando a banda do cliente.</h1>
+    <p>pra impedir que a banda fique muito grande com muito acesso das pessoas, eu posso simplesmente copiar e colar o código do mesmo vídeo porém hospedado em outro lugar, como o youtube, vimeo, ou algo assim.</p> 
+    <p>Dessa forma.</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RIUbYddNPKU?si=tgxvZDJ_Clc8W7Nh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
