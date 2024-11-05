@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    
+    <style>         
+
+        body {
+
+            font-family: 'Abel';
+
+        }
+
+        caption {
+
+            font-size: 25px;
+            font-weight: bold;
+            background-color: lightblue;
+
+        }
+
+        table {
+
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        td {
+
+            border: 1px solid black;
+            padding: 20px;
+            font-family: 'Abel';
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        thead, tfoot {
+
+            background-color: gray;
+            color: white;
+
+        }
+
+        tbody > tr:nth-child(2n) {  
+
+            background-color: lightgray;
+
+        }
+
+        thead > tr > th {
+
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Minha primeira tabela.</h1>
+    <table>
+
+        <caption>Números/População</caption>
+
+        <thead>
+
+            <tr>
+
+                <td>Estado</td>
+                <td>População</td>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            
+            <tr>
+            
+                <td>São Paulo</td>
+                <td rowspan="2">112356987</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Amazônia</td>
+
+            </tr>
+
+            <tr>
+            
+                <td colspan="2">Bahia</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Paraíba</td>
+                <td>12579636</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Goiás</td>
+                <td>2345791</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Minas Gerais</td>
+                <td>205789635</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Rio de Janeiro</td>
+                <td>3258746</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Floripa</td>
+                <td>232545689</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Tocantins/td>
+                <td>23416117899</td>
+
+            </tr>
+
+            <tr>
+            
+                <td>Pernambuco</td>
+                <td>25548999</td>
+
+            </tr>
+
+        </tbody>
+        
+        <tfoot>
+            <tr>
+
+                <td>Total de Habitantes</td>
+                <td>235489715923</td>
+
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+
+</html>
