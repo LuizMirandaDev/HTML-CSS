@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário 2</title>
+
+        <style>
+
+            body{
+                font-family: 'Abel';
+                margin: 30px;
+            }
+
+        </style>
+
+</head>
+
+<body>
+    
+    <form action="index.php">
+        
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" required minlength="5" maxlength="15" size="15" placeholder="Digite seu nome" autocomplete="on" required>
+        </p>
+
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" minlength="8" maxlength="15" size="15" placeholder="Digite sua senha" autocomplete="on" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </form>
+
+    
+</body>
+
+</html>

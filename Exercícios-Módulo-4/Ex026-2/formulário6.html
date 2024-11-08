@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+    
+    <style>
+        body {
+            font-family: 'Abel';
+            margin: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="index.php" method="post"></form>
+    
+    <p>
+        <label for="estados">Estados</label>
+        <select name="Estados" id="estados">
+            <option value="">--Selecione um Estado--</option>
+            <optgroup label="Estados Cabuloso">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="ES">Espírito Santo</option>
+            </optgroup>
+            <optgroup label="Outros Estados">
+                <option value="AM">Amazonas</option>
+                <option value="AC">Acre</option>
+                <option value="PA">Paraí</option>
+                <option value="RO">Rondônia</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <p>
+        <label for="data">Profissão</label>
+        <input type="text" name="Iprofissão" id="prof" list="profissão">
+        <datalist id="profissão">
+            <option value="Desenvolvedor"></option>
+            <option value="Engenheiro"></option>
+            <option value="Mecânico"></option>
+            <option value="Veterinário"></option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="Msg">Mensagem:</label><br>
+        <textarea name="Msgs" id="Msg" cols="30" rows="10"></textarea>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+</body>
+
+</html>
